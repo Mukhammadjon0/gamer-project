@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.resurs {
+  background-color: #090812;
+  padding: 50px 0 0 0;
+  height: 120vh;
+  position: relative;
+}
+.birhil_ds {
+  /* margin-top: 50px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.resurs_tepasi > h4 {
+  font-family: "Plus Jakarta Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: white;
+}
+.resurs_tepasi > h2 {
+  font-family: "HeliosExtC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: white;
+}
+/* ===================================================== */
+.resurs_ortasi {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  padding: 50px;
+}
+
+/* ===================================================== */
+.resurs_chap {
+  background-image: url(rasm/Group\ 39139.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+.resurs_chap > img {
+  height: 600px;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.resursla_chap {
+  padding: 50px;
+}
+.resursla_chap > h2 {
+  margin-top: 50px;
+  font-family: "HeliosExtC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 109%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.resursla_chap > p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.resursla_chap > button {
+  padding: 15px 23px;
+  background: linear-gradient(98.73deg, #7a42f4 0%, #4642f4 100%), #ffffff;
+  border-radius: 6px;
+  font-family: "HeliosBlackC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  color: #ffffff;
+}
+
+/* ===================================================== */
+
+.resurs_rasm {
+  position: absolute;
+}
+.rasm1 {
+  width: 400px;
+  bottom: 160px;
+  right: 260px;
+}
+.rasm2 {
+  width: 400px;
+  bottom: 180px;
+  right: 280px;
+}
+.rasm3 {
+  width: 400px;
+  bottom: 200px;
+  right: 300px;
+}
+.rasm4 {
+  top: -150px;
+  left: 0;
+}
+
+/* ===================================================== */
+.ds img {
+  display: inline;
+}
+.resurs_dumolo > p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  color: rgba(255, 255, 255, 0.7);
+}
+.dumolo2 {
+  width: 150px;
+  margin-bottom: 100px;
+  margin-left: 500px;
+}
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(rasm/Rectangle\ 39880.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #090812;
+  padding: 50px 30px 100px;
+  position: relative;
+}
+.game_ortasi {
+  background-image: url(rasm/Group\ 39140.png);
+  margin-right: -100px;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  height: 500px;
+  width: 100%;
+}
+#game_rasm{
+  margin-top: -30px;
+  width: 100%;
+}
+.game_soz {
+  padding: 50px;
+}
+.game_soz > h1 {
+  margin-top: -50px;
+
+  font-family: "HeliosExtC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 109%;
+  color: #ffffff;
+}
+.game_soz > p {
+  font-family: "Plus Jakarta Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 0.7;
+}
+#game_rasm1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
